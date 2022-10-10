@@ -46,6 +46,29 @@ img .img1{
     background-color: black;
     color: white;
 }
+.container3 #text{
+    position:relative;
+    top: -360px;
+    text-align: center;
+    font-style: oblique;
+}
+.container3 button{
+    margin-top: 10px;
+    margin-left: 17%;
+    position: relative;
+    top: -200px;
+    padding: 20px 20px;
+    border: 1px solid grey;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+}
+
+.container3 button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
 
 .footer{
     background-color: lightgrey;
