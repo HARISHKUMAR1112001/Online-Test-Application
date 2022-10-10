@@ -1,0 +1,28 @@
+div .image{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text{
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    right: 5%;
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.text button{
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+.text button:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
