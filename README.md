@@ -13,7 +13,10 @@ for wrong answers.
 
 Final score will be displayed and updated in the database with username.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ae1662dfe9d0e23db511d3915fdc560093225ef1
 # Screen-Snip
 
 ![Screenshot](./assets/Screenshot.png)
@@ -28,5 +31,3 @@ Final score will be displayed and updated in the database with username.
 # Steps to Set-Up
 1)  npm insatll
 2)  node index.js 
-
-
