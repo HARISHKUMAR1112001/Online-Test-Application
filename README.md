@@ -12,3 +12,5 @@ If the answer is correct, score is incremented by one and no marks will be award
 for wrong answers.
 
 Final score will be displayed and updated in the database with username.
+
+
