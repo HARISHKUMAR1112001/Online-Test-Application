@@ -20,7 +20,7 @@ Final score will be displayed and updated in the database with username.
 
 # Flow Chart
 
-![FlowChart](./assets/Flow Chart Of The Application.png)
+![Screenshot](./assets/Flow Chart Of The Application.png)
 
 # Stacks-Used
 
