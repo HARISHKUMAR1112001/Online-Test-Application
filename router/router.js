@@ -1,17 +1,15 @@
-import express  from "express";
+const express = require("express");
 
 const router = express.Router();
 
-import addQuestion from '../modules/add-question.js';
-import getQuestions  from '../modules/get-questions.js';
-
-
+const addQuestion = require('../modules/add-question.js');
+const getQuestions = require('../modules/get-questions.js');
+const signin = require('../modules/signin');
+const signup = require('../modules/signup');
 
 router.post('/', addQuestion);
 router.get('/questions',getQuestions);
+router.get('/signin',signin);
+router.post('/signup',signup);
 
-router.get('/js/', (req,res) => {
-    res.sendFile('C:/Users/Prajapati.Kishor/Documents/New folder/Online-Test-Application/public/templates/index.html');
-  })
-
-export default router;
+module.exports = router;

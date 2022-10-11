@@ -1,4 +1,4 @@
-import questionDetails from '../schema/models/question.cjs';
+const questionDetails =require('../schema/models/question.js');
 
 const addQuestion = async (req,res) => {
     try{
@@ -18,4 +18,4 @@ const addQuestion = async (req,res) => {
     }
 }
 
-export default addQuestion;
+module.exports= addQuestion;

@@ -1,3 +1,16 @@
+const questionDetails =require('../schema/models/question.js');
+
+const getQuestions = async () => {
+
+        const questions = await questionDetails.find();
+        
+        if(questions.length !== 0)
+        {
+            console.log(questions);
+        } else {
+        console.log('questions not found!');
+        }
+}
 const quizData = [
     {
         question: "Which language runs in a web browser?",

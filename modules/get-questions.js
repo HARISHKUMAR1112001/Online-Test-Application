@@ -1,4 +1,4 @@
-import questionDetails from '../schema/models/question.cjs';
+const questionDetails =require('../schema/models/question.js');
 
 const getQuestions = async (req,res) => {
     try{
@@ -16,4 +16,4 @@ const getQuestions = async (req,res) => {
     }
 }
 
-export default getQuestions;
+module.exports= getQuestions;

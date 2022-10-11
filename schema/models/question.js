@@ -1,6 +1,6 @@
-import { Schema, model } from 'mongoose';
+const mongoose = require('mongoose');
 
-const QuestionSchema = Schema({
+const QuestionSchema = mongoose.Schema({
     question: {
     type: String,
     require: true,
@@ -28,6 +28,6 @@ const QuestionSchema = Schema({
   },
 }, {timestamps: true});
 
-const QuestionDetails = model("QuestionDetails", QuestionSchema);
+const QuestionDetails =  mongoose.model("QuestionDetails", QuestionSchema);
 
-export default QuestionDetails;
+module.exports = QuestionDetails;
