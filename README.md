@@ -12,3 +12,25 @@ If the answer is correct, score is incremented by one and no marks will be award
 for wrong answers.
 
 Final score will be displayed and updated in the database with username.
+
+
+# Screen-Snip
+
+![Screenshot](./assets/Screenshot.png)
+
+# Flow Chart
+
+![FlowChart](./assets/Flow Chart Of The Application.png)
+
+# Stacks-Used
+
+## frontend = HTML , CSS , JAVASCRIPT
+## BACKEND = NODE.JS , JAVASCRIPT
+## DATABASE = MONGODB
+
+
+# Steps to Set-Up
+1)  npm insatll
+2)  node index.js 
+
+
