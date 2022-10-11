@@ -4,22 +4,6 @@ if(document.getElementById('html'))
 {
     quizData =  [
         {
-            question: "Which language runs in a web browser abhinav?",
-            a: "Java",
-            b: "C",
-            c: "Python",
-            d: "JavaScript",
-            correct: "d",
-        },
-        {
-            question: "What does CSS stand for?",
-            a: "Central Style Sheets",
-            b: "Cascading Style Sheets",
-            c: "Cascading Simple Sheets",
-            d: "Cars SUVs Sailboats",
-            correct: "b",
-        },
-        {
             question: "What does HTML stand for?",
             a: "Hypertext Markup Language",
             b: "Hypertext Markdown Language",
@@ -28,11 +12,35 @@ if(document.getElementById('html'))
             correct: "a",
         },
         {
-            question: "What year was JavaScript launched?",
-            a: "1996",
-            b: "1995",
-            c: "1994",
-            d: "none of the above",
+            question: "What do you understand by HTML?",
+            a: "HTML describes the structure of a webpage",
+            b: "HTML is the standard markup language mainly used to create web pages",
+            c: "HTML consists of a set of elements that helps the browser how to view the content",
+            d: "All of the above",
+            correct: "d",
+        },
+        {
+            question: "Who is the father of HTML?",
+            a: "Rasmus Lerdorf",
+            b: "Tim Berners-Lee",
+            c: "Brendan Eich",
+            d: "Sergey Brin",
+            correct: "b",
+        },
+        {
+            question: "Which is used to read an HTML page and render it?",
+            a: "Web server",
+            b: "Web network",
+            c: " Web browser",
+            d: "Web matrix",
+            correct: "c",
+        },
+        {
+            question: "Which tag is used for inserting the largest heading in HTML?",
+            a: "head",
+            b: "<h1>",
+            c: "<h6>",
+            d: "heading",
             correct: "b",
         },
     ]
