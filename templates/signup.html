@@ -10,7 +10,7 @@
     <link rel="icon" href="../Images/infinity.svg" type="image/icon type">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./signup.css">
+    <link rel="stylesheet" href="../style/signup.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -32,7 +32,7 @@
               <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./signup.html">Sign Up</a>
+              <a class="nav-link" href="./signup.html">Take Test</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./about.html">About</a>
@@ -45,11 +45,11 @@
     <form id="form">
 		<div class="form-group">
             <label for="exampleFormControlInput1">Name</label>
-            <input type="text" class="form-control" id="fname" placeholder="name">
+            <input type="text" class="form-control" id="fname" placeholder="name" required />
           </div>
           <div class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com" required />
           </div>
           <div class="form-group">
             <label for="exampleFormControlSelect1">Select Technology</label>
@@ -59,7 +59,7 @@
               <option>HTML</option>
             </select>
           </div>
-        <button onclick="store()" type="button">
+        <button onclick="store()" type="submit">
 		Submit
 		</button>
     </form>

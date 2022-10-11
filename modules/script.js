@@ -497,13 +497,21 @@ else if(document.getElementById('css'))
             d: "style",
             correct: "d",
         },
+        {
+            question: "How can we change the background color of an element?",
+            a: "styles",
+            b: "class",
+            c: "font",
+            d: "background color",
+            correct: "d",
+        }
     ]
 }
 else if(document.getElementById('javascript'))
 {
     quizData=  [
         {
-            question: "Which language runs in a web browser abhinav 456?",
+            question: "Which language runs in a web browser?",
             a: "Java",
             b: "C",
             c: "Python",
