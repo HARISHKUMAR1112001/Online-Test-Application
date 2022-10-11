@@ -415,22 +415,7 @@ let quizData;
 if(document.getElementById('html'))
 {
     quizData =  [
-        {
-            question: "Which language runs in a web browser abhinav?",
-            a: "Java",
-            b: "C",
-            c: "Python",
-            d: "JavaScript",
-            correct: "d",
-        },
-        {
-            question: "What does CSS stand for?",
-            a: "Central Style Sheets",
-            b: "Cascading Style Sheets",
-            c: "Cascading Simple Sheets",
-            d: "Cars SUVs Sailboats",
-            correct: "b",
-        },
+
         {
             question: "What does HTML stand for?",
             a: "Hypertext Markup Language",
@@ -439,12 +424,40 @@ if(document.getElementById('html'))
             d: "Helicopters Terminals Motorboats Lamborginis",
             correct: "a",
         },
+
         {
-            question: "What year was JavaScript launched?",
-            a: "1996",
-            b: "1995",
-            c: "1994",
-            d: "none of the above",
+            question: "What do you understand by HTML?",
+            a: "HTML describes the structure of a webpage",
+            b: "HTML is the standard markup language mainly used to create web pages",
+            c: "HTML consists of a set of elements that helps the browser how to view the content",
+            d: "All of the above",
+            correct: "d",
+        },
+
+        {
+            question: "Who is the father of HTML?",
+            a: "Rasmus Lerdorf",
+            b: "Tim Berners-Lee",
+            c: "Brendan Eich",
+            d: "Sergey Brin",
+            correct: "b",
+        },
+
+        {
+            question: "Which is used to read an HTML page and render it?",
+            a: "Web server",
+            b: "Web network",
+            c: " Web browser",
+            d: "Web matrix",
+            correct: "c",
+        },
+
+        {
+            question: "Which tag is used for inserting the largest heading in HTML?",
+            a: "head",
+            b: "<h1>",
+            c: "<h6>",
+            d: "heading",
             correct: "b",
         },
     ]
@@ -453,12 +466,12 @@ else if(document.getElementById('css'))
 {
     quizData=  [
         {
-            question: "Which language runs in a web browser abhinav 123?",
-            a: "Java",
-            b: "C",
-            c: "Python",
-            d: "JavaScript",
-            correct: "d",
+            question: "Where in an HTML document is the correct place to refer to an external style sheet?",
+            a: "In the <head> section",
+            b: "In the <body> section",
+            c: "At the end of the document",
+            d: "None of these",
+            correct: "a",
         },
         {
             question: "What does CSS stand for?",
@@ -469,20 +482,20 @@ else if(document.getElementById('css'))
             correct: "b",
         },
         {
-            question: "What does HTML stand for?",
-            a: "Hypertext Markup Language",
-            b: "Hypertext Markdown Language",
-            c: "Hyperloop Machine Language",
-            d: "Helicopters Terminals Motorboats Lamborginis",
-            correct: "a",
+            question: "Which HTML tag is used to define an internal style sheet?",
+            a: "<css>",
+            b: "<style>",
+            c: "<script>",
+            d: "None of these",
+            correct: "b",
         },
         {
-            question: "What year was JavaScript launched?",
-            a: "1996",
-            b: "1995",
-            c: "1994",
-            d: "none of the above",
-            correct: "b",
+            question: "Which HTML attribute is used to define inline styles?",
+            a: "styles",
+            b: "class",
+            c: "font",
+            d: "style",
+            correct: "d",
         },
     ]
 }
@@ -498,20 +511,20 @@ else if(document.getElementById('javascript'))
             correct: "d",
         },
         {
-            question: "What does CSS stand for?",
-            a: "Central Style Sheets",
-            b: "Cascading Style Sheets",
-            c: "Cascading Simple Sheets",
-            d: "Cars SUVs Sailboats",
-            correct: "b",
+            question: "What is the correct syntax for referring to an external script called xxx.js?",
+            a: "<script src=xxx.js>",
+            b: "<script name=xxx.js>",
+            c: "<script href=xxx.js>",
+            d: "None of these",
+            correct: "a",
         },
         {
-            question: "What does HTML stand for?",
-            a: "Hypertext Markup Language",
-            b: "Hypertext Markdown Language",
-            c: "Hyperloop Machine Language",
-            d: "Helicopters Terminals Motorboats Lamborginis",
-            correct: "a",
+            question: "Where is the correct place to insert a JavaScript?",
+            a: "The <head> section",
+            b: "Both the <head> section and the <body> section are correct",
+            c: "The <body> section",
+            d: "None of these",
+            correct: "b",
         },
         {
             question: "What year was JavaScript launched?",
@@ -521,10 +534,17 @@ else if(document.getElementById('javascript'))
             d: "none of the above",
             correct: "b",
         },
+        {
+            question: "Inside which HTML element do we put the JavaScript?",
+            a: "<script>",
+            b: "<js>",
+            c: "<scripting>",
+            d: "<javascript>",
+            correct: "a",
+        },
     ]
 }
 
-console.log(document.getElementById('html'));
     const quiz = document.getElementById('quiz')
     const answerEls = document.querySelectorAll('.answer')
     const questionEl = document.getElementById('question')
