@@ -580,9 +580,15 @@ console.log(document.getElementById('html'));
             if(currentQuiz < quizData.length) {
                 loadQuiz()
             } else {
+
+                const name = localStorage.getItem('name');
+                localStorage.clear();
+                const percentage = (score/quizData.length)*100;
+
                 quiz.innerHTML = `
-                    <h2>You answered ${score}/${quizData.length} questions correctly</h2>
-    
+                    <h1><center>🎉🎉Well Done ${name}🎉🎉<center></h1>
+                    <h2>You answered ${score} out Of ${quizData.length} questions correctly</h2>
+                    <h2>Your Efficiency is ${percentage}%.</h2>
                     <a href="../templates/index.html"><button>Go To Home</button></a>
                 `
             }

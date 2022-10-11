@@ -45,7 +45,7 @@
     <form id="form">
 		<div class="form-group">
             <label for="exampleFormControlInput1">Name</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name">
+            <input type="text" class="form-control" id="fname" placeholder="name">
           </div>
           <div class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
@@ -53,15 +53,17 @@
           </div>
           <div class="form-group">
             <label for="exampleFormControlSelect1">Select Technology</label>
-            <select class="form-control" id="exampleFormControlSelect1">
+            <select class="form-control" id="technology">
               <option>JavaScript</option>
               <option>CSS</option>
               <option>HTML</option>
             </select>
           </div>
-        <button type="submit" value="submit" >
-			<span style="color: white;"> Submit </span>
+        <button onclick="store()" type="button">
+		Submit
 		</button>
     </form>
+    <script  type="text/javascript" src="../modules/signup.js">  
+ </script>
 </body>
 </html>

@@ -48,13 +48,13 @@ img .img1{
 }
 .container3 #text{
     position:relative;
-    top: -360px;
+    top: -260px;
     text-align: center;
     font-style: oblique;
 }
 .container3 button{
     margin-top: 10px;
-    margin-left: 17%;
+    margin-left: 14%;
     position: relative;
     top: -200px;
     padding: 20px 20px;
