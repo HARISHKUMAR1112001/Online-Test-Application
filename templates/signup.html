@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Take Test</title>
+    <title>Sign Up</title>
 
     <!-- Title icon -->
     <link rel="icon" href="../Images/infinity.svg" type="image/icon type">
@@ -29,10 +29,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="./index.html">Home </a>
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./signup.html">Take Test<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="./signup.html">Take Test</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./about.html">About</a>
@@ -42,14 +42,14 @@
       </nav>
 
     <!-- Form -->
-    <form id="form" method="post">
+    <form id="form">
 		<div class="form-group">
             <label for="exampleFormControlInput1">Name</label>
-            <input type="text" class="form-control" id="fname" placeholder="name" required>
+            <input type="text" class="form-control" id="fname" placeholder="name" required />
           </div>
           <div class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com" required>
+            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com" required />
           </div>
           <div class="form-group">
             <label for="exampleFormControlSelect1">Select Technology</label>
@@ -59,9 +59,11 @@
               <option>HTML</option>
             </select>
           </div>
-        <button type="submit" value="submit" >
-			<span style="color: white;"> Submit </span>
+        <button onclick="store()" type="submit">
+		Submit
 		</button>
     </form>
+    <script  type="text/javascript" src="../modules/signup.js">  
+ </script>
 </body>
 </html>
